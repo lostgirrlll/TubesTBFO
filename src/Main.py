@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from regex import createToken
+from Regex import createToken
 from Processing import readGrammar
 from Convert import CFGtoCNF
 from Parser import CYKParse
